@@ -1,0 +1,19 @@
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-item);
+}
+
+.features-list > li {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-item-title {
+  margin-bottom: var(--spacing-text-gap);
+}
+
+.features-item-text {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  letter-spacing: var(--letter-spacing-base);
+}

@@ -1,0 +1,55 @@
+.header {
+  border-bottom: 1px solid var(--color-cornflower);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  margin-right: 76px;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  letter-spacing: var(--letter-spacing-base);
+  color: var(--color-navy-blue);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--color-ocean);
+}
+
+.header-contacts {
+  margin-left: auto;
+  font-style: normal;
+}
+
+.header-contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-contacts-link {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  letter-spacing: var(--letter-spacing-base);
+  color: var(--color-slate);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--color-ocean);
+}

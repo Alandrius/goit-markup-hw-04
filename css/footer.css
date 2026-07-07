@@ -1,0 +1,18 @@
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--color-navy-blue);
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  max-width: 264px;
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  letter-spacing: var(--letter-spacing-base);
+  color: var(--color-cloud);
+}
