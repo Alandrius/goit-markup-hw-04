@@ -4,7 +4,11 @@
   background-color: var(--color-navy-blue);
 }
 
-.footer .logo {
+.footer .container {
+  display: flex;
+}
+
+.footer-brand .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -15,4 +19,40 @@
   line-height: var(--line-height-base);
   letter-spacing: var(--letter-spacing-base);
   color: var(--color-cloud);
+}
+
+.footer-social-block {
+  margin-left: auto;
+}
+
+.footer-social-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  letter-spacing: var(--letter-spacing-base);
+  color: var(--color-white);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-iris);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--color-ocean);
 }

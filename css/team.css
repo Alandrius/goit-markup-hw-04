@@ -12,6 +12,10 @@
   background-color: var(--color-white);
   border-radius: 0 0 4px 4px;
   text-align: center;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-card-content {
@@ -20,4 +24,32 @@
 
 .team-member-name {
   margin-bottom: var(--spacing-text-gap);
+}
+
+.team-member-role {
+  margin-bottom: 16px;
+}
+
+.team-socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-iris);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--color-ocean);
 }
