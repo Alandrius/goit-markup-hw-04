@@ -45,7 +45,7 @@
 }
 
 .portfolio-overlay-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
   letter-spacing: var(--letter-spacing-base);

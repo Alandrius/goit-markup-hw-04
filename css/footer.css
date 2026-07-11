@@ -22,7 +22,7 @@
 }
 
 .footer-social-block {
-  margin-left: auto;
+  margin-left: 120px;
 }
 
 .footer-social-title {
@@ -54,5 +54,5 @@
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: var(--color-ocean);
+  background-color: #31d0aa;
 }
